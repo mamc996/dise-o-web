@@ -1,0 +1,133 @@
+
+body{
+    width:  100%;
+    height: 100%;
+
+}
+
+.rs{
+    width: 100px;
+    height: 60px;
+    float: right;
+    margin: 8px 10px 8px 10px;
+}
+
+#Toshiba-logo{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+        
+}
+
+.navegadores{
+    padding-inline-start: 0%;
+}
+
+#menu{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+}
+
+li{
+    float: left;
+    padding-right: 15px;
+}
+
+
+
+section{
+    width: 100%;
+    /*para que se alinea en vertical*/
+    display: flex;
+    /*para que se separen dejando un espacio igual entre los contenidos*/
+    justify-content: space-around;
+    padding-bottom: 50px ;
+    
+}
+
+article{
+    position: relative;
+    
+}
+
+#Productos-tv{
+    background-image: url(/python/diseño\ web/imagenes/television.jpg);
+    /*para que se centre la imagen*/
+    background-position:  center   ;
+    /*para que no se repita la imagen*/
+    background-repeat: no-repeat;
+    /*para que tome el borde completo - cover = cubrir todo*/
+    background-size: 100% 90%;
+    width: 360px;
+    height: 250px;
+    
+}
+
+#portatil-tables{
+    background-image: url(/python/diseño\ web/imagenes/tablet-portatil.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    width: 360px;
+    height: 250px;
+
+}
+
+#discos-duros{
+    background-image: url(/python/diseño\ web/imagenes/discodurostoshiba.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    width: 360px;
+    height: 250px;
+}
+
+#equipos-multifunciones{
+    background-image: url(/python/diseño\ web/imagenes/equipomultifunciones.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    width: 360px;
+    height: 250px;
+
+}
+
+#Toshiba-lighting{
+    background-image: url(/python/diseño\ web/imagenes/toshibafocos.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    width: 360px;
+    height: 250px;
+
+}
+
+#accesorios{
+    background-image: url(/python/diseño\ web/imagenes/accesorios.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    width: 360px;
+    height: 250px;
+}
+
+.subtitulos{
+    color: rgb(10, 10, 10);
+    background-color: rgba(221, 219, 219, 0.5);
+    margin: 0%;
+}
+
+article a{
+    color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(226, 225, 224,50%);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer p{
+    text-align: center;
+}
