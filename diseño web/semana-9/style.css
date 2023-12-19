@@ -1,0 +1,53 @@
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    margin: 2px;
+    padding: 0;
+    float: left;
+}
+
+.menu ul li a{
+    display: block; 
+    width: 120px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #000;
+}
+
+.menu ul li a:hover{
+    background-color: #003366;
+
+}
+
+.sub-menu a{
+    padding: 20px;
+}
+
+.sub-menu li{
+    display: none;
+}
+
+#sub-menu-inicio:hover .sub-menu{
+    display: block;
+}
+
+#sub-menu-inicio:hover .sub-menu li{
+    display: block;
+    float: none;
+}
+
+#sub-menu-categoria:hover .sub-menu{
+    display: block;
+}
+
+#sub-menu-categoria:hover .sub-menu li{
+    display: block;
+    float: none;
+}
