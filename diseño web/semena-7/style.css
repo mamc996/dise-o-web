@@ -19,15 +19,70 @@ body{
         
 }
 
-.navegadores{
-    padding-inline-start: 0%;
+.menu{
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 10px;
 }
 
-#menu{
+.menu ul{
     list-style-type: none;
-    font-size: 18px;
-    padding: 10px 0px 10px 0px;
+    margin: 0;
+    padding: 0;
 }
+
+.menu ul li{
+    margin: 2px;
+    padding: 0;
+    float: left;
+
+}
+
+.menu ul li a{
+    display: block; 
+    width: 120px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #000;
+    
+}
+
+.menu ul li a:hover{
+    background-color: #003366;
+
+}
+
+.sub-menu a{
+    padding: 20px;
+    
+}
+
+.sub-menu li{
+    display: none;
+}
+
+#sub-menu-inicio:hover .sub-menu{
+    display: block;
+}
+
+#sub-menu-inicio:hover .sub-menu li{
+    display: block;
+    float: none;
+}
+
+#sub-menu-categoria:hover .sub-menu{
+    display: block;
+}
+
+#sub-menu-categoria:hover .sub-menu li{
+    display: block;
+    float: none;
+}
+
+
 
 li{
     float: left;
@@ -52,7 +107,7 @@ article{
 }
 
 #Productos-tv{
-    background-image: url(/python/diseño\ web/imagenes/television.jpg);
+    background-image: url(../imagenes/television.jpg);
     /*para que se centre la imagen*/
     background-position:  center   ;
     /*para que no se repita la imagen*/
@@ -65,7 +120,7 @@ article{
 }
 
 #portatil-tables{
-    background-image: url(/python/diseño\ web/imagenes/tablet-portatil.jpg);
+    background-image: url(../imagenes/tablet-portatil.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: 100% 80%;
@@ -75,7 +130,7 @@ article{
 }
 
 #discos-duros{
-    background-image: url(/python/diseño\ web/imagenes/discodurostoshiba.jpg);
+    background-image: url(../imagenes/discodurostoshiba.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 90%;
@@ -84,7 +139,7 @@ article{
 }
 
 #equipos-multifunciones{
-    background-image: url(/python/diseño\ web/imagenes/equipomultifunciones.png);
+    background-image: url(../imagenes/equipomultifunciones.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 95%;
@@ -94,7 +149,7 @@ article{
 }
 
 #Toshiba-lighting{
-    background-image: url(/python/diseño\ web/imagenes/toshibafocos.webp);
+    background-image: url(../imagenes/toshibafocos.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 90%;
@@ -104,7 +159,7 @@ article{
 }
 
 #accesorios{
-    background-image: url(/python/diseño\ web/imagenes/accesorios.png);
+    background-image: url(../imagenes/accesorios.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 90%;

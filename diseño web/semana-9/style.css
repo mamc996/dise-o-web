@@ -1,3 +1,23 @@
+body{
+    width:  100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.rs{
+    width: 100px;
+    height: 60px;
+    float: right;
+    margin: 8px 10px 8px 10px;
+}
+
+#Toshiba-logo{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+        
+}
+
 .menu ul{
     list-style-type: none;
     margin: 0;
@@ -51,3 +71,34 @@
     display: block;
     float: none;
 }
+
+
+.laptop, .spotify{
+    width: 40%;
+    height: 300px;
+    margin: 10px 10px 10px 10px;    
+}
+
+.contenido{
+    display: flex;
+}
+
+.texto{    
+    font-size: 25px;    
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.pie{
+    padding-left: 60px;  
+}
+
+hr, section{
+    margin: 50px 0px;
+    position: relative;
+}
+
